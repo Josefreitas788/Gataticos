@@ -1,5 +1,7 @@
 import Main from '/Main.js';
 import Home from '/Home.js';
+import Home1 from '/Home1.js';
+import GameOver from '/GameOver.js';
 
 const config = {
   width: 700,
@@ -13,7 +15,7 @@ const config = {
         gravity: {y:0}
     }
   },
-  scene: [Home, Main]
+  scene: [Home1, Home, Main, GameOver]
 };
 
 const game = new Phaser.Game(config);

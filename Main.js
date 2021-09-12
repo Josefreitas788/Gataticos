@@ -6,9 +6,11 @@
 
 //https://www.youtube.com/watch?v=cPYOkzQPKvM
 
+import GameOver from '/GameOver.js';
 import Laser from '/Laser.js';
 import Meteoro from '/Meteoro.js';
-
+import Explosao from '/Explosao.js';
+import Home1 from '/Home1.js';
 
 var fundo_teste;
 var scene_width = 700; //tamanho do cenario 640
@@ -33,7 +35,7 @@ export default class Main extends Phaser.Scene {
     super({ key: 'Main' });
 
   }
-  
+
 
   preload() {
 
@@ -50,7 +52,10 @@ export default class Main extends Phaser.Scene {
     this.load.image('Laser', 'assets/laserRed01.png');
 
     //explosão
-    this.load.image('explode', 'assets/explode.png');
+    this.load.spritesheet('explode', 'assets/explode.png', {
+      frameWidth: 128,
+      frameHeight: 128
+    });
 
     //meteoro
     this.load.image('meteoroBrown-6', 'assets/meteoros/meteoroBrown-6.png');
@@ -63,7 +68,7 @@ export default class Main extends Phaser.Scene {
     fundo_teste = this.add.tileSprite(scene_width_2, scene_height_2, scene_width, scene_height, 'fundo');
 
     //Textos Do jogo
-    
+
 
 
     //player/meteoro
@@ -83,25 +88,23 @@ export default class Main extends Phaser.Scene {
     this.laserGroup = this.physics.add.group({
       //definindo o objeto
       classType: Laser,
-      //maxSize: 20000, 
       runChildUpdate: true
 
     });
     this.meteoroGroup = this.physics.add.group({
       //definindo o objeto
       classType: Meteoro,
-      //maxSize: 20000, 
       runChildUpdate: true
 
     });
-
-    let meteoro = this.meteoroGroup.get();
-    meteoro.cria(350, 20);
-
-
-
-
-
+    
+    //this.explosaoGroup = this.physics.add.group//({ 
+    //  //definindo o objeto
+    //  classType: Explosao,
+    //  //maxSize: 20000, 
+    //  runChildUpdate: true
+    //
+    //})
 
     //this.ship = this physics
     //Teclas
@@ -111,10 +114,7 @@ export default class Main extends Phaser.Scene {
     this.a = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A)
     this.s = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.S)
     this.d = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.D)
-
-
   }
-
 
   update() {
     fundo_teste.tilePositionY -= 1;//fica rodando a imagem de fundo
@@ -125,34 +125,43 @@ export default class Main extends Phaser.Scene {
 
     this.physics.overlap(this.laserGroup, this.meteoroGroup, poscolisao, null, this);
     this.physics.overlap(player, this.meteoroGroup, gameOver, null, this);
+
     //Game Over
     function gameOver(player, meteoro) {
       meteoro.destroy();
 
-      //stateText.content=" Você Perdeu Querido(a)//\n\nPressione a tecla 'r' para jogar //novamente!";
-      //stateText.visible = true;
-      if(this.r.isDown){
-        
-      }
+      //meteoro.anims.generateFrameNumbers('explode', { start: 0, end: 3 });
 
+      player.disableBody(true, true);
+      this.scene.launch('GameOver');
+      this.scene.pause();
     }
+    
+    if(this.r.isDown){     
+    }
+    
     //Colisão laser com meteoro
-    function poscolisao(shoot, meteorozito) {
+    function poscolisao(shoot, meteoro) {
 
+      //let explosao = new Explosao(this, meteoro.x, meteoro.y);
+      let explosao = new Explosao();
 
-      meteorozito.destroy();
+      meteoro.destroy();
       shoot.destroy();
+      //this.scene.start("Explosao");
+
+      //this.anims.generateFrameNumbers('explode', { start: 0, end: 3 });
 
     }
     //cria meteoros
     if (tempoMeteoro < this.time.now) {
-      let meteorozito = this.meteoroGroup.get();
-      meteorozito.cria(getRandomInt(0, 700), 0);
+      let meteoro = this.meteoroGroup.get();
+      meteoro.cria(getRandomInt(0, 700), 0);
       setTimeout(function () {
-        meteorozito.destroy();
+        meteoro.destroy();
       }, 2800);
 
-      tempoMeteoro = this.time.now + 600;
+      tempoMeteoro = this.time.now + 300;
 
     }
 

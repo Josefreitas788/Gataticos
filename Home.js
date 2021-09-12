@@ -1,31 +1,23 @@
-//class Home extends Phaser.Scene{
 export default class Home extends Phaser.Scene {
   constructor (){
       super('Home');
   }
 
-  //var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create });
-
    preload() {
 
-      //game.load.bitmapFont('carrier_command', 'assets/fonts/bitmapFonts/carrier_command.png', 'assets/fonts/bitmapFonts/carrier_command.xml');
-
-      this.load.image("teste", "assets/player.png");
-
+      //tela2
+      this.load.image("tela2", "telas/tela2.png");
+      //botão
+      this.load.image("play", "telas/play.png");
   }
-
-//var bpmText;
 
    create() {
 
-      // bmpText = game.add.bitmapText(10, 100, 'carrier_command','Drag me around !',34);
+      this.add.image(0,0,"tela2").setOrigin(0,0);
 
-      // bmpText.inputEnabled = true;
-
-      // bmpText.input.enableDrag();
-
-      this.add.imagem(0,0,"teste").setOrigins(0,0);
-
+      //botão
+      let btnPlay = this.add.image(350,250,"play").setScale(0.4, 0.4);
+      btnPlay.setInteractive();
+      btnPlay.on("pointerdown", () => this.scene.start("Main"));
   }
-
 }
