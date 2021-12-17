@@ -1,7 +1,13 @@
-# Gataticos
-É um jogo escrito utilizando o framework phaser.js
+# Gataticos🎮🕹️
 
-## Integrantes do Projeto
+Jogo Asteroids - Trabalho final de Sistemas Multimídia.
+
+## Tecnologias utilizadas 📃
+
+* Framework Phaser 3 
+* TypeScript
+
+## Integrantes do Projeto 👀
 
 <table>
   <tr>
@@ -24,19 +30,21 @@
    </tr>
   </table>
    
-## Link onde é possivel jogar
-https://home.helohyuuga.repl.co/
+## Link para acessar o jogo 🔗
+* https://home.helohyuuga.repl.co/
 
 
-
-## Tela inicial com os comandos do jogo (para ir para a próxima tela clique na seta)
+## Tela inicial com os comandos do jogo (Tela 1)
+* clique na seta
 <img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print1.png">
 
-## Tela para iniciar (clique no centro)
+## Tela para iniciar (Tela 2)
+* Clique no Play
 <img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print2.png">
 
-## Tela com o jogo em execução
+## Tela com o jogo em execução (Tela 3)
 <img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print3.png">
 
-## Tela de "Game Over" (para recomeçar reinicie a página) 
+## Tela de "Game Over" (Tela 4) 
+* para recomeçar reinicie a página
 <img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print4.png">
