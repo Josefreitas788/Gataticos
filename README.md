@@ -7,7 +7,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/Josefreitas788">
-        <img src="https://github.com/Josefreitas788/Gataticos/blob/main/ImagensParaReadme/jose.jpg" heigth="120px;" width="120px;"  alt="Jose"/><br>
+        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/jose.jpg" heigth="120px;" width="120px;"  alt="Jose"/><br>
         <sub>
           <b>José Antônio</b>
         </sub>
@@ -15,7 +15,7 @@
     </td>
     <td align="center">
       <a href="https://github.com/HeloiseKatharine">
-        <img src="https://github.com/Josefreitas788/Gataticos/ImagensParaReadme/heloise.jpg" heigth="120px;" width="120px;" alt="Heloise"/><br>
+        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/heloise.jpg" heigth="120px;" width="120px;" alt="Heloise"/><br>
         <sub>
           <b>Heloise Katharine</b>
         </sub>
