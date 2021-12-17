@@ -5,7 +5,7 @@ Jogo Asteroids - Trabalho final de Sistemas Multimídia.
 ## Tecnologias utilizadas 📃
 
 * Framework Phaser 3 
-* TypeScript
+* JavaScript
 
 ## Integrantes do Projeto 👀
 
@@ -35,7 +35,7 @@ Jogo Asteroids - Trabalho final de Sistemas Multimídia.
 
 
 ## Tela inicial com os comandos do jogo (Tela 1)
-* clique na seta
+* Clique na seta
 <img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print1.png">
 
 ## Tela para iniciar (Tela 2)
