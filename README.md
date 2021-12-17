@@ -9,7 +9,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/Josefreitas788">
-        <img src="https://github.com/Josefreitas788/Gataticos/ImagensParaReadme/jose.jpg" heigth="120px;" width="120px;"  alt="Jose"/><br>
+        <img src="https://github.com/Josefreitas788/Gataticos/blob/main/ImagensParaReadme/jose.jpg" heigth="120px;" width="120px;"  alt="Jose"/><br>
         <sub>
           <b>José Antônio</b>
         </sub>
