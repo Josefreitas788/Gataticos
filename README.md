@@ -1,9 +1,7 @@
 # Gataticos
 É um jogo escrito utilizando o framework phaser.js
-# Gataticos
-É um jogo escrito utilizando o framework phaser.js
 
-## � Integrantes do Projeto
+## Integrantes do Projeto
 
 <table>
   <tr>
@@ -23,7 +21,10 @@
         </sub>
       </a>
     </td>
-# Link onde é possivel jogar
+   </tr>
+  </table>
+   
+## Link onde é possivel jogar
 https://home.helohyuuga.repl.co/
 
 
