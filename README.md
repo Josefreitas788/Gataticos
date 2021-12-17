@@ -32,7 +32,7 @@ https://home.helohyuuga.repl.co/
   <tr>
     <td align="center">
       <a href="https://github.com/Josefreitas788">
-        <img src="https://github.com/Josefreitas788/Gataticos/ImagensParaReadme/print1.jpg" heigth="120px;" width="120px;"/><br>
+        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print1.png" heigth="120px;" width="120px;"/><br>
         <sub>
           <b>Tela inicial com os comandos do jogo</b>
           <b>(para ir para a próxima tela clique na seta)</b>
@@ -41,7 +41,7 @@ https://home.helohyuuga.repl.co/
     </td>
     <td align="center">
       <a href="https://github.com/Josefreitas788">
-        <img src="https://github.com/Josefreitas788/Gataticos/ImagensParaReadme/print2.jpg" heigth="120px;" width="120px;"  /><br>
+        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print2.png" heigth="120px;" width="120px;"  /><br>
         <sub>
           <b>Tela para iniciar</b>
           <b>(clique no centro)</b>          
@@ -50,7 +50,7 @@ https://home.helohyuuga.repl.co/
     </td>
     <td align="center">
       <a href="https://github.com/Josefreitas788">
-        <img src="https://github.com/Josefreitas788/Gataticos/ImagensParaReadme/print3.jpg" heigth="120px;" width="120px;" /><br>
+        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print3.png" heigth="120px;" width="120px;" /><br>
         <sub>
           <b>Tela com o jogo em execução</b>
         </sub>
@@ -58,7 +58,7 @@ https://home.helohyuuga.repl.co/
     </td>
     <td align="center">
       <a href="https://github.com/Josefreitas788">
-        <img src="https://github.com/Josefreitas788/Gataticos/ImagensParaReadme/print4.jpg" heigth="120px;" width="120px;"  /><br>
+        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print4.png" heigth="120px;" width="120px;"  /><br>
         <sub>
           <b>Tela de "Game Over"</b>
           <b>(para recomeçar reinicie a página)</b>
