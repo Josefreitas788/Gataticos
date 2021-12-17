@@ -31,7 +31,7 @@ https://home.helohyuuga.repl.co/
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/Josefreitas788">
+      <a>
         <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print1.png" heigth="120px;" width="120px;"/><br>
         <sub>
           <b>Tela inicial com os comandos do jogo</b>
@@ -40,7 +40,7 @@ https://home.helohyuuga.repl.co/
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/Josefreitas788">
+      <a>
         <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print2.png" heigth="120px;" width="120px;"  /><br>
         <sub>
           <b>Tela para iniciar</b>
@@ -49,7 +49,7 @@ https://home.helohyuuga.repl.co/
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/Josefreitas788">
+      <a>
         <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print3.png" heigth="120px;" width="120px;" /><br>
         <sub>
           <b>Tela com o jogo em execução</b>
@@ -57,7 +57,7 @@ https://home.helohyuuga.repl.co/
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/Josefreitas788">
+      <a>
         <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print4.png" heigth="120px;" width="120px;"  /><br>
         <sub>
           <b>Tela de "Game Over"</b>
