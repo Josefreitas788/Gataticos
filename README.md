@@ -28,46 +28,15 @@
 https://home.helohyuuga.repl.co/
 
 
-<table>
-  <tr>
-    <td align="center">
-      <a>
-        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print1.png" heigth="320px;" width="320px;"/><br>
-        <sub>
-          <b>Tela inicial com os comandos do jogo</b>
-          <b>(para ir para a próxima tela clique na seta)</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a>
-        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print2.png" heigth="320px;" width="320px;"  /><br>
-        <sub>
-          <b>Tela para iniciar</b>
-          <b>(clique no centro)</b>          
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a>
-        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print3.png" heigth="320px;" width="320px;" /><br>
-        <sub>
-          <b>Tela com o jogo em execução</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a>
-        <img src="https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print4.png" heigth="320px;" width="320px;"  /><br>
-        <sub>
-          <b>Tela de "Game Over"</b>
-          <b>(para recomeçar reinicie a página)</b>
-        </sub>
-      </a>
-    </td>
-   </tr>
-  </table>
-
 
 ## Tela inicial com os comandos do jogo (para ir para a próxima tela clique na seta)
 <img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print1.png">
+
+## Tela para iniciar (clique no centro)
+<img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print2.png">
+
+## Tela com o jogo em execução
+<img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print3.png">
+
+## Tela de "Game Over" (para recomeçar reinicie a página) 
+<img src = "https://github.com/Josefreitas788/Gataticos/blob/master/ImagensParaReadme/print4.png">
